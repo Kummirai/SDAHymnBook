@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hymn Book</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img class="adventistLogo" src="images/adventistLogo.png" alt="Adventist logo">
+      <a href="index.html"><img src="images/icons8-home-64.png" alt="home icon" class="home"></a>
+      <h1 id="song">Hillbrow Seventh Day Adventist Church</h1>
+      <h2 id="hymn-number">Hymn Book</h2>
+    </div>
+    <div class="main-page" id="mainPage">
+      <div class="hymn-selection">
+        <form action="">
+          <img src="images/Conductor.png" alt="Music conductor" id="png">
+          <p>
+            <label for="hymn"></label>
+          </p> 
+          <p>
+            <input type="number" for="hymn" id="hymn" placeholder="Enter Hymn Number" onblur="getVal()">
+          </p>
+        </form>
+      </div>
+      <div class="hymnOne">
+        <p class="hymn-1a">
+          Mlindi, vuthel’ icilongo<br>
+          Xwayis’ abadukile<br>
+          Lowo ozway’ icilingo <br>
+          Angaphenduk’ aphile <br>
+        </p>
+      </div>
+      <div class="chorus">
+        <h2 class="hymn-number" class="chorus-title">Chorus</h2>
+        <p class="hymn-chorus" id="hymnChorusOne">
+          Vuthel’ icilongo, mlindi<br>
+          iNkos’ ithi; Vuthela …<br>
+          Li vuthela futhi-futhi;<br>
+          Bonke bangasindiswa<br>
+        </p>
+      </div>
+      <div class="hymnTwo">
+        <p class="hymn-1a">
+          Inkos’ ifikil’ emnyango<br>
+          Eyathwal’ isiphambano<br>
+          Manje abalungileyo<br>
+          Ba zobuthwa yiYo<br>
+        </p>
+      </div>
+      <div class="chorusTwo">
+        <h2 class="hymn-number" class="chorus-title">Chorus</h2>
+        <p class="hymn-chorus" id="hymnChorusTwo">
+          Emnyango… Emnyango …<br>
+          Inkosi ifikil’ emnyango<br>
+          Iyeza… yon’ iyeza… <br>
+          I sifikile emnyango. <br>
+        </p>
+      </div>
+      <div class="hymnThree">
+        <p class="hymn-1a">
+          Ubuso buzobukana<br>
+          NoKrestu uMsindisi<br>
+          Ngizakuthab'ukumbona<br>
+          uJesu ong’uMfeli<br>
+        </p>
+      </div>
+      <div class="hymnFour">
+        <p class="hymn-1a">
+          Imnand’ indab’ endlebeni yesihambi<br>
+          Esazula kude nekhaya!<br>
+          Ku seduze abuye ngodum’ uMhlengi<br>
+          Masiny’ uMbus’ u fike<br>
+        </p>
+      </div>
+      <div class="hymnFive">
+        <p class="hymn-1a" id="hymnFive">
+          Ekhaya ku sekude na?<br>
+          Ngi buzil’umlindi yena<br>
+          Wath’ ub’ suku: Bu yaphela<br>
+          Manje seku yasa<br>
+          Ngakho: U ngabusakhala<br>
+          Kodwa, hamba u phalale<br>
+          U zofik’ ezinsukwini<br>
+          Ezingasapheli!<br>
+        </p>
+      </div>
+      <div class="hymnSix">
+        <p class="hymn-1a" id="hymnSix">
+          Lindani, khaliphanini<br>
+          Bonani iziboniso<br>
+          Kanyisani izibani<br>
+          Ngob’ uJes’ u lusindiso<br>
+        </p>
+      </div>
+      <div class="hymnSeven">
+        <p class="hymn-1a" id="hymnSeven">
+          Nxa esefikile Yena<br>
+          Ukubuth’ imfuyo<br>
+          Iligugu lakhe yona<br> 
+          Ukuyi fuya.<br>
+        </p>
+      </div>
+      <div class="hymnEight">
+        <p class="hymn-1a" id="hymnEight">
+          Nxa icilongo li khala nesikhathi si dlula<br>
+          Kofika usuku olumi njalo<br>
+          Abasindisiweyo ezweni ba zobuthana<br>
+          Bebizwa phezulu ngi zobakhona <br>
+
+        </p>
+      </div>
+      <div class="hymnNine">
+        <p class="hymn-1a" id="hymnNine">
+          Khalisan’ icilongo kakhulu<br>
+          uJes’ u yeza futhi<br>
+          Bonke ba bhekisise phezulu<br>
+          uJes’ u yeza futhi<br>
+
+        </p>
+      </div>
+      <div class="hymnTen">
+        <p class="hymn-1a" id="hymnTen">
+          Sobuthana emfulweni<br>
+          Kanye nezingilosi<br>
+          Amanz’ ephum’ es’Hlalweni<br>
+          KuJehova, iNkosi<br>
+        </p>
+      </div>
+      <div class="hymnEleven">
+        <p class="hymn-1a" id="hymnEleven">
+          Ngokulandela, Msindisi<br>
+          Kuzo zonk’ izinsizi<br>
+          Laph’ u khona ngolandela<br>
+          Yebo ngi zolandela<br>
+        </p>
+      </div>
+      <div class="hymnTwelve">
+        <p class="hymn-1a" id="hymnTwelve">
+          Ku khon’ uMthombo wegazi Ovel’ eNkosini<br>
+          Zonk’ izoni zi ngagezwa, Ngokuy’ eNkosini<br>
+          Zi ngahlanjululwa Ezonweni zazo<br>
+          Zonke zi ngathethelwa Ebubini bazo<br>
+        </p>
+      </div>
+      <div class="hymnThirteen">
+        <p class="hymn-1a" id="hymnThirteen">
+          O, ‘Nkosi ngi fisa ukuphelela<br>
+          Ngi thanda ukuba u hlale nami<br>
+          Xebula wonke amaxhwala ami<br>
+          Ngi gezisiswe ngaphezu kweliqhwa<br>
+        </p>
+      </div>
+      <div class="hymnFourteen">
+        <p class="hymn-1a" id="hymnFourteen">
+          Yizw’ imal’ ithelwa<br>
+          Lalel’ I yawa<br>
+          Ngeka Jesu yonke<br>
+          Ma iye kuYe<br>
+        </p>
+      </div>
+      <div class="hymnFifteen">
+        <p class="hymn-1a" id="hymnFifteen">
+          UJes’ u yangithanda<br>
+          Ku sho uMbhalo wAkhe<br>
+          NgabAkhe nabantwana<br>
+          U ngamandl’ abo bonke<br>
+        </p>
+      </div>
+      <div class="hymnSixteen">
+        <p class="hymn-1a" id="hymnSixteen">
+          Ngi gezil’ izandla<br>
+          Ngazenza zabamhlope<br>
+          uJesu ngamnika<br>
+          Zi msebenzele kuhlwe<br>
+        </p>
+      </div>
+      <div class="hymnSeventeen">
+        <p class="hymn-1a" id="hymnSeventeen">
+          Si yathaba ngothando<br>
+          Lu yasithabisa<br>
+          Lu senza sibe nenqgondo<br>
+          Kwabanye umusa<br.
+        </p>
+      </div>
+      <div class="hymnEighteen">
+        <p class="hymn-1a" id="hymnEighteen">
+          Mabutho ka Krestu<br>
+          Hlomani nonke<br>
+          Nilwe noSathani<br>
+          Isitha kini<br>
+        </p>
+      </div>
+      <div class="hymnNineteen">
+        <p class="hymn-1a" id="hymnNineteen">
+          O! mphefumlo wami<br>
+          Hlala ulindile<br>
+          iNkosi ngamandla ami<br>
+          Noma se ngi wile<br>
+        </p>
+      </div>
+      <div class="hymnTwenty">
+        <p class="hymn-1a" id="hymnTwenty">
+          Vuka khuthala moya wam’<br>
+          Qhubela phambili<br>
+          Ba yasho nas’ ezulwini<br>
+          Khuthalel’ imqhele<br>
+        </p>
+      </div>
+      <div class="navigation">
+        <a  id="previous-arrow" href="#hymnChorus"  onclick="preeviousParagraph()"><img  src="images/previousArrow.png" alt="previous-arrow"></a>
+        <a  id="hymn-chorus" href="#hymnChorus"  onclick="hymnChorus()"><img  src="images/chorus.png" alt="next-arrow"></a>
+        <a  id="next-arrow" href="#hymnChorus"  onclick="nextParagraph()"><img  src="images/nextArrow.png" alt="next-arrow"></a> 
+      </div>
+      <p class="copyright">&copy; Kummirai 2023</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
